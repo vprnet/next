@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <title>{% block title %}Vermont Public Radio{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{% block description %}{{ social.description }}{% endblock %}">
+
+    <!-- Styles -->
+{% block style %}
+    <link href="{{ url_for('static', filename='css/style.css') }}?ver=0.1" rel="stylesheet">
+{% endblock %}
+
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='ico/favicon.ico') }}">
+
+{% include "_social.html" %}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<!-- Jquery used by below anayltics code -->
+{% include "_analytics.html" %}
+
+</head>
+
+<body>
+
+<div id="page_container">
+{% block navbar %}{% include "_navbar.html" %}{% endblock %}
+
+{% block content %}{% endblock %}
+</div>
+
+{% block footer %}
+<footer>
+    <div class="container">
+        <div class="col-xs-12">
+          <div class="email-info">
+            <p><b>Sign up for our newsletter.</b></p>
+          </div>
+        </div>
+        <div class="col-xs-6">
+
+          <div id="footer-options">
+            <p><span class="glyphicon glyphicon-play" aria-hidden="true"></span> WATCH</span></p>
+            <p><span class="glyphicon glyphicon-play" aria-hidden="true"></span> LEARN</p>
+            <p><span class="glyphicon glyphicon-play" aria-hidden="true"></span> GIVE</p>
+
+          </div>
+
+        </div>
+        <div class="col-xs-6">
+          <div class="footer-info">
+            <p><id="vpr_address"><b>Vermont Public Radio</b></p>
+            <p><id="vpr_address">365 Troy Avenue</p>
+            <p><id="vpr_address">Colchester, VT 05446</p>
+          </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
+
+
+{% block scripts %}
+{% endblock %}
+
+<script src="{{ url_for('static', filename='js/script.js') }}?ver=0.1"></script>
+
+{#
+{% block grunt %}
+<script src="//localhost:35729/livereload.js"></script>
+<script type='text/javascript'>//<![CDATA[
+;document.write("<script defer src='//HOST:3000/socket.io/socket.io.js'><\/script><script defer src='//HOST:3001/client/browser-sync-client.0.9.1.js'><\/script>".replace(/HOST/g, location.hostname));
+//]]></script>
+{% endblock %}
+#}
+
+
+</body>
+</html>
