@@ -1669,10 +1669,10 @@ h6,
 
 /* line 1094, ../dev/sass/_bootstrap.scss */
 p {
-  margin: 10px 50px 10px;
+  margin: 10px 90px 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   p {
     margin: 10px 30px 10px;
   }
@@ -2607,7 +2607,7 @@ address {
     margin-left: 0%;
   }
 }
-@media (min-width: 592px) {
+@media (min-width: 692px) {
   /* line 1684, ../dev/sass/_bootstrap.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -9408,15 +9408,9 @@ h1, h2, h3, h4 {
   font-size: 10px;
 }
 
-.glyphicon-chevron-down {
-  color: #DD503F;
-  font-size: 20px;
-  padding: 10px;
-}
-
 #intro-explainer {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   color: #5e6a71;
 }
 
@@ -9427,12 +9421,20 @@ h1, h2, h3, h4 {
 }
 
 #next-image {
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  #next-image {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
 }
 
 
 #video-title h4 {
-  padding-top: 30px;
+  padding-top: 35px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color: #FFFFFF;
@@ -9440,25 +9442,25 @@ h1, h2, h3, h4 {
 
 #video-title p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   color: #93B0AC;
 }
 
 #video-action p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   color: #FFFFFF;
-  padding: 10px;
+  padding-bottom: 30px;
 }
 
 #section2 {
   background-color: #3A424B;
   overflow: auto;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 #vimeo {
-  padding: 25px 30px 15px;
+  padding: 35px 30px 15px;
 }
 
 #teaser {
@@ -9471,7 +9473,7 @@ h1, h2, h3, h4 {
 
 .breakdown p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 8px;
+  font-size: 10px;
   color: #3A424B;
   padding-left: 5px;
 }
@@ -9484,7 +9486,7 @@ h1, h2, h3, h4 {
 
 .btn-danger {
   background-color: #DD503F;
-  font-size: 11px;
+  font-size: 14px;
   padding: 10px 30px 10px 30px;
   border-radius: 0 !important;
   font-family: 'Montserrat', sans-serif;
