@@ -1669,7 +1669,7 @@ h6,
 
 /* line 1094, ../dev/sass/_bootstrap.scss */
 p {
-  margin: 10px 100px 10px;
+  margin: 10px 70px 10px;
 }
 
 @media (max-width: 768px) {
@@ -9422,21 +9422,50 @@ h1, h2, h3, h4 {
 
 #intro-learn-more {
   font-family: 'Montserrat', sans-serif;
-  color: #DD503F;
   letter-spacing: 2px;
+  color: #DD503F;
 }
 
 #next-image {
   padding-top: 20px;
 }
 
+
+#video-title h4 {
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+#video-title p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  color: #93B0AC;
+}
+
+#video-action p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+#section2 {
+  background-color: #3A424B;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+#vimeo {
+  padding: 25px 30px 15px;
+}
+
 .btn-danger {
   background-color: #DD503F;
   font-size: 11px;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 30px 10px 30px;
   border-radius: 0 !important;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
-  float: right;
-  margin-top: 45px;
 }
