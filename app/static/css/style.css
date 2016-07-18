@@ -1502,7 +1502,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #ffffff;
 }
 
 /* line 960, ../dev/sass/_bootstrap.scss */
@@ -9240,11 +9240,8 @@ div.audio_player .audio_title {
 
 /* line 18, ../dev/sass/style.scss */
 hr {
-  border-top: 4px solid #585e5e;
-}
-
-hr.side {
-  border-top: 1px solid #585e5e;
+  border-top: 1px solid #ffffff;
+  width: 70%;
 }
 
 /* line 22, ../dev/sass/style.scss */
@@ -9432,7 +9429,6 @@ h1, h2, h3, h4 {
   }
 }
 
-
 #video-title h4 {
   padding-top: 35px;
   font-family: 'Montserrat', sans-serif;
@@ -9473,15 +9469,16 @@ h1, h2, h3, h4 {
 
 .breakdown p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   color: #3A424B;
   padding-left: 5px;
 }
+
 .breakdown-title p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  color: #3A424B;
+  font-size: 20px;
   font-weight: 700;
+  color: #3A424B;
 }
 
 .btn-danger {
@@ -9491,4 +9488,46 @@ h1, h2, h3, h4 {
   border-radius: 0 !important;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
+}
+
+.btn-success {
+  background-color: #4EA640;
+  font-size: 14px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 0 !important;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+
+div.give {
+  background: url("../img/vpr-building.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#quote {
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+#quote-id {
+  padding-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+#give-action {
+  padding-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: center;
 }
