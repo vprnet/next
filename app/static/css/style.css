@@ -1669,12 +1669,12 @@ h6,
 
 /* line 1094, ../dev/sass/_bootstrap.scss */
 p {
-  margin: 10px 70px 10px;
+  margin: 10px 50px 10px;
 }
 
 @media (max-width: 768px) {
   p {
-    margin: 10px 60px 10px;
+    margin: 10px 30px 10px;
   }
 }
 
@@ -9416,7 +9416,7 @@ h1, h2, h3, h4 {
 
 #intro-explainer {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   color: #5e6a71;
 }
 
