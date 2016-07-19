@@ -12,6 +12,12 @@
     <link href="{{ url_for('static', filename='css/style.css') }}?ver=0.1" rel="stylesheet">
 {% endblock %}
 
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+  #mc_embed_signup{background:#3A424B; clear:left; font:14px; width:90%;}
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  </style>
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -40,26 +46,19 @@
 {% block footer %}
 <footer>
     <div class="container">
-        <div class="col-xs-12">
+        <div class="col-lg-6">
           <div class="email-info">
             <p><b>Sign up for our newsletter.</b></p>
           </div>
-        </div>
-        <div class="col-xs-6">
-
-          <div id="footer-options">
-            <p><span class="glyphicon glyphicon-play" aria-hidden="true"></span> WATCH</span></p>
-            <p><span class="glyphicon glyphicon-play" aria-hidden="true"></span> LEARN</p>
-            <p><span class="glyphicon glyphicon-play" aria-hidden="true"></span> GIVE</p>
-
+            {% include "_mailchimp.html" %}
           </div>
-
         </div>
-        <div class="col-xs-6">
+
+        <div class="col-lg-6">
           <div class="footer-info">
-            <p><id="vpr_address"><b>Vermont Public Radio</b></p>
-            <p><id="vpr_address">365 Troy Avenue</p>
-            <p><id="vpr_address">Colchester, VT 05446</p>
+            <p><b>Vermont Public Radio</b></p>
+            <p>365 Troy Avenue</p>
+            <p>Colchester, VT 05446</p>
           </div>
         </div>
     </div>
