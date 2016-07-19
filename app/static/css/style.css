@@ -5602,11 +5602,6 @@ html, body {
   right: 0;
   font-weight: 300;
 }
-/* line 64, ../dev/sass/_vpr.scss */
-.navbar .navbar-header .social_logos li {
-  font-size: 30px;
-  padding-left: 1px;
-}
 
 /* line 72, ../dev/sass/_vpr.scss */
 footer {
@@ -9556,4 +9551,19 @@ div.give {
 
 #logo-tracker {
   padding-top: 15px;
+}
+
+#sharing-section {
+  background-color: #4A5660;
+  overflow: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#share-copy h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: center;
 }
