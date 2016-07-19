@@ -5583,18 +5583,9 @@ html, body {
 }
 /* line 48, ../dev/sass/_vpr.scss */
 .navbar .navbar-header #vpr_logo {
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding-top: 40px;
 }
-/* line 53, ../dev/sass/_vpr.scss */
-.navbar .navbar-header h1#navbar-title {
-  font-family: 'Oswald', sans-serif;
-  margin-top: 10px;
-  font-size: 26px;
-  font-weight: 400;
-  text-align: center;
-}
+
 /* line 59, ../dev/sass/_vpr.scss */
 .navbar .navbar-header .social_logos {
   position: absolute;
@@ -5662,7 +5653,7 @@ footer span#copyright {
 
 /* line 1, ../dev/sass/_vpr-svg.scss */
 #vpr_svg {
-  background-size: 100%;
+  background-size: 90%;
   width: 300px;
   height: 120px;
   background-repeat: no-repeat;
@@ -9258,7 +9249,7 @@ h1, h2, h3, h4 {
 
 /* line 36, ../dev/sass/style.scss */
 .navbar {
-  min-height: 145px;
+  min-height: 175px;
 }
 @media (max-width: 500px) {
   /* line 36, ../dev/sass/style.scss */
@@ -9575,10 +9566,34 @@ div.give {
 
 .social-responsive {
   display: inline-block;
-  position: relatives;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   padding: 5px 15px;
+}
+
+.nav-social-responsive {
+  display: inline-block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 1px 5px;
+}
+
+@media (max-width: 972px) {
+  .nav-social-responsive {
+    padding: 35px 1px 25px;
+  }
+}
+
+@media (max-width: 999px) {
+  .nav-share-logos {
+    display: none;
+  }
+}
+
+.nav-share-logos {
+  text-align: right;
 }
 
 #share-logos {
