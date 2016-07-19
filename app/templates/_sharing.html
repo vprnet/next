@@ -7,8 +7,8 @@
     </div>
     <div class="col-md-6">
       <div id="share-logos">
-        <img class="social-responsive" src="./static/img/socialicons2_twitter.png" width="80px">
-        <img class="social-responsive" src="./static/img/socialicons2_fb.png" width="80px">
+        <a href="http://www.twitter.com/intent/tweet?url={{ page_url|urlencode }}&text={{ project_social.twitter_text|urlencode }}&via=vprnet&hashtags={{ project_social.twitter_hashtag|urlencode }}" target="_blank"><img class="social-responsive" src="./static/img/socialicons2_twitter.png" width="80px"></a>
+        <a href="https://www.facebook.com/sharer.php?u={{ project_social.url|urlencode }}" target="_blank"><img class="social-responsive" src="./static/img/socialicons2_fb.png" width="80px"></a>
       </div>
     </div>
   </div>

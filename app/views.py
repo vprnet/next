@@ -6,9 +6,9 @@ project_social = {
     "url": BASE_URL,
     "title": "VPR NEXT",
     "subtitle": "",
-    "img": "http://mediad.publicbroadcasting.net/p/vpr/files/vpr-podcast-directory-2015.png",
-    "description": "",
-    "twitter_text": "",
+    "img": "http://mediad.publicbroadcasting.net/p/vpr/files/next-logo-vpr-simon-20160711.png",
+    "description": "Join me in helping to transform the sound of Vermont's future.",
+    "twitter_text": "Join me in helping to transform the sound of Vermont's future.",
     "twitter_hashtag": ""
 }
 
