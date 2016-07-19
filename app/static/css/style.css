@@ -9566,4 +9566,17 @@ div.give {
   color: #FFFFFF;
   letter-spacing: 2px;
   text-align: center;
+  padding: 1px 20px 10px;
+}
+
+.social-responsive {
+  display: inline-block;
+  position: relatives;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 15px;
+}
+
+#share-logos {
+  text-align: center;
 }
