@@ -1668,10 +1668,10 @@ h6,
 
 /* line 1094, ../dev/sass/_bootstrap.scss */
 p {
-  margin: 10px 60px 10px;
+  margin: 1px 30px 10px;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 960px) {
   p {
     margin: 10px 30px 10px;
   }
@@ -2606,7 +2606,14 @@ address {
     margin-left: 0%;
   }
 }
-@media (min-width: 1024px) {
+
+@media (max-width: 970px) {
+  #desktop-feature-image {
+    display: none;
+  }
+}
+
+@media (min-width: 970px) {
   /* line 1684, ../dev/sass/_bootstrap.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -9407,7 +9414,7 @@ h1, h2, h3, h4 {
   color: #DD503F;
   padding-top: 10px;
   padding-bottom: 5px;
-  padding-right: 30px;
+  padding-right: 10px;
 }
 
 #next-image {
@@ -9415,15 +9422,8 @@ h1, h2, h3, h4 {
   padding-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-  #next-image {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-}
-
 #video-title h4 {
-  padding-top: 35px;
+  padding-top: 5px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color: #FFFFFF;
@@ -9442,19 +9442,19 @@ h1, h2, h3, h4 {
   padding-bottom: 30px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   #intro-learn-more {
-    padding-left: 80px;
+    padding-left: 20px;
   }
 
   #intro-explainer p {
-    font-size: 14px;
-    padding-right: 80px;
-    padding-left: 80px;
+    font-size: 13px;
+    padding-right: 5px;
+    padding-left: 25px;
   }
 
   #video-title h4 {
-    padding-top: 60px;
+    padding-top: 20px;
     font-size: 35px;
   }
 
@@ -9646,10 +9646,4 @@ div.give {
 
 #share-logos {
   text-align: center;
-}
-
-@media (max-width: 1024px) {
-  #desktop-feature-image {
-    display: none;
-  }
 }
