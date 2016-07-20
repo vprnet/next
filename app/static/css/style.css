@@ -1499,7 +1499,7 @@ img {
 
 /* line 954, ../dev/sass/_bootstrap.scss */
 hr {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #ffffff;
@@ -3893,7 +3893,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #449d44;
+  background-color: #327332;
   border-color: #398439;
 }
 
@@ -9439,6 +9439,27 @@ h1, h2, h3, h4 {
   padding-bottom: 30px;
 }
 
+@media (min-width: 1200px) {
+  #intro-explainer {
+    font-size: 16px;
+  }
+
+  #video-title h4 {
+    padding-top: 60px;
+    font-size: 35px;
+  }
+
+  #video-title p {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  #video-action p {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+}
+
 #section2 {
   background-color: #3A424B;
   overflow: auto;
@@ -9468,15 +9489,19 @@ h1, h2, h3, h4 {
 }
 
 #vimeo {
-  padding: 35px 30px 15px;
+  padding: 35px 30px 10px;
 }
 
 #teaser {
-  padding-top: 10px;
+  padding-top: 30px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
   color: #B4B7B8;
+}
+
+.breakdown {
+  padding-bottom: 20px;
 }
 
 .breakdown p {
@@ -9491,6 +9516,7 @@ h1, h2, h3, h4 {
   font-size: 20px;
   font-weight: 700;
   color: #3A424B;
+  padding-top: 10px;
 }
 
 .btn-danger {
@@ -9512,13 +9538,13 @@ h1, h2, h3, h4 {
 }
 
 div.give {
-  background: url("../img/vpr-next-building.jpg") no-repeat center center;
+  background: url("../img/vpr-next-building.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
 #quote {
@@ -9536,7 +9562,7 @@ div.give {
 }
 
 #give-action {
-  padding-top: 5px;
+  padding-top: 25px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #FFFFFF;
@@ -9562,6 +9588,12 @@ div.give {
   letter-spacing: 2px;
   text-align: center;
   padding: 1px 20px 10px;
+}
+
+@media (max-width: 762px) {
+  #share-copy span {
+    display: block;
+  }
 }
 
 .social-responsive {
