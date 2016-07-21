@@ -9434,6 +9434,11 @@ h1, h2, h3, h4 {
   color: #FFFFFF;
   padding-bottom: 30px;
 }
+@media (max-width: 718px) {
+  #video-action span {
+    display: block;
+  }
+}
 
 @media (min-width: 1018px) {
   #intro-learn-more {
@@ -9453,12 +9458,12 @@ h1, h2, h3, h4 {
 
   #video-title p {
     padding-top: 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #video-action p {
     padding-top: 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
