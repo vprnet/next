@@ -9562,7 +9562,16 @@ h1, h2, h3, h4 {
 .btn-danger {
   background-color: #DD503F;
   font-size: 14px;
-  padding: 10px 30px 10px 30px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 0 !important;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+
+.btn-email {
+  background-color: #DD503F;
+  font-size: 14px;
+  padding: 10px 40px 10px 40px;
   border-radius: 0 !important;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
@@ -9571,7 +9580,7 @@ h1, h2, h3, h4 {
 .btn-success {
   background-color: #4EA640;
   font-size: 14px;
-  padding: 10px 30px 10px 30px;
+  padding: 15px 40px 15px 40px;
   border-radius: 0 !important;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
