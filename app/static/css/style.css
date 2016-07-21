@@ -2601,13 +2601,13 @@ address {
   }
 }
 
-@media (max-width: 1009px) {
+@media (max-width: 1018px) {
   #desktop-feature-image {
     display: none;
   }
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1018px) {
   /* line 1684, ../dev/sass/_bootstrap.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -9435,7 +9435,7 @@ h1, h2, h3, h4 {
   padding-bottom: 30px;
 }
 
-@media (min-width: 1009px) {
+@media (min-width: 1018px) {
   #intro-learn-more {
     padding-left: 20px;
   }
@@ -9523,6 +9523,12 @@ h1, h2, h3, h4 {
   color: #B4B7B8;
 }
 
+@media (max-width: 562px) {
+  .text-break {
+    display: block;
+  }
+}
+
 .breakdown {
   padding-bottom: 20px;
 }
@@ -9531,7 +9537,6 @@ h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   color: #3A424B;
-  padding-left: 5px;
 }
 
 .breakdown-title p {
