@@ -5656,7 +5656,7 @@ footer span#copyright {
   width: 300px;
   height: 120px;
   background-repeat: no-repeat;
-  background-image: url(http://mediad.publicbroadcasting.net/p/vpr/files/next-logo-vpr-simon-20160711.png);
+  background-image: url(http://mediad.publicbroadcasting.net/p/vpr/files/201607/next-logo-simon-20160721.png);
 }
 
 /*!
@@ -9658,7 +9658,7 @@ div.give {
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1020px) {
   .nav-share-logos {
     display: none;
   }
