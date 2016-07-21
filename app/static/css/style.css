@@ -1415,7 +1415,7 @@ html {
 
 /* line 893, ../dev/sass/_bootstrap.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -1668,7 +1668,7 @@ h6,
 
 /* line 1094, ../dev/sass/_bootstrap.scss */
 p {
-  margin: 1px 30px 10px;
+  margin: 1px 20px 10px;
 }
 
 @media (max-width: 960px) {
@@ -1678,7 +1678,7 @@ p {
 }
 /* line 1094, ../dev/sass/_bootstrap.scss */
 h1 {
-  margin: 1px 30px 10px;
+  margin: 1px 20px 10px;
 }
 
 @media (max-width: 960px) {
@@ -2611,13 +2611,13 @@ address {
   }
 }
 
-@media (max-width: 926px) {
+@media (max-width: 991px) {
   #desktop-feature-image {
     display: none;
   }
 }
 
-@media (min-width: 925px) {
+@media (min-width: 991px) {
   /* line 1684, ../dev/sass/_bootstrap.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -9402,6 +9402,7 @@ h1, h2, h3, h4 {
 }
 
 #intro-explainer span {
+  font-family: 'Montserrat', sans-serif;
   color: #308C3F;
 }
 
@@ -9457,6 +9458,7 @@ h1, h2, h3, h4 {
 
 @media (min-width: 1038px) {
   #intro-learn-more {
+    font-family: 'Montserrat', sans-serif;
     padding-left: 20px;
   }
 
@@ -9471,6 +9473,7 @@ h1, h2, h3, h4 {
   }
 
   #intro-explainer p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     padding-right: 30px;
     padding-left: 30px;
@@ -9493,7 +9496,7 @@ h1, h2, h3, h4 {
 }
 
 #video-section {
-  background-color: #3A424B;
+  background-color: #2b333a;
   overflow: auto;
   padding-bottom: 30px;
 }
