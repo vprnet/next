@@ -1673,7 +1673,17 @@ p {
 
 @media (max-width: 960px) {
   p {
-    margin: 10px 30px 10px;
+    margin: 10px 20px 10px;
+  }
+}
+/* line 1094, ../dev/sass/_bootstrap.scss */
+h1 {
+  margin: 1px 30px 10px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    margin: 1px 20px 10px;
   }
 }
 
@@ -2601,13 +2611,13 @@ address {
   }
 }
 
-@media (max-width: 1018px) {
+@media (max-width: 926px) {
   #desktop-feature-image {
     display: none;
   }
 }
 
-@media (min-width: 1018px) {
+@media (min-width: 925px) {
   /* line 1684, ../dev/sass/_bootstrap.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -9391,20 +9401,28 @@ h1, h2, h3, h4 {
   font-size: 10px;
 }
 
-#intro-explainer {
-  font-family: 'Montserrat Light', sans-serif;
-  font-size: 12px;
-  color: #5e6a71;
+#intro-explainer span {
+  color: #308C3F;
+}
+
+#intro-explainer h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  color: #3A424B;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-right: 10px;
 }
 
 #intro-learn-more p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 2px;
   color: #DD503F;
   padding-top: 10px;
   padding-bottom: 5px;
   padding-right: 10px;
+  padding-left: 2px;
 }
 
 #next-image {
@@ -9437,13 +9455,23 @@ h1, h2, h3, h4 {
   }
 }
 
-@media (min-width: 1018px) {
+@media (min-width: 1038px) {
   #intro-learn-more {
     padding-left: 20px;
   }
 
+  #intro-explainer h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #3A424B;
+    padding-top: 9%;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
   #intro-explainer p {
-    font-size: 12px;
+    font-size: 14px;
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -9461,27 +9489,6 @@ h1, h2, h3, h4 {
   #video-action p {
     padding-top: 20px;
     font-size: 14px;
-  }
-}
-
-@media (max-width: 1008px) {
-  #intro-explainer p {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-
-@media (max-width: 908px) {
-  #intro-explainer p {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media (max-width: 808px) {
-  #intro-explainer p {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
 
