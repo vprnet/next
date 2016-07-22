@@ -5590,6 +5590,19 @@ html, body {
 /* line 48, ../dev/sass/_vpr.scss */
 .navbar .navbar-header #vpr_logo {
   padding-top: 20px;
+  padding-left: 50px;
+}
+
+@media (max-width: 1038px) {
+  .navbar .navbar-header #vpr_logo {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 338px) {
+  .navbar .navbar-header #vpr_logo {
+    padding-left: 8px;
+  }
 }
 
 /* line 59, ../dev/sass/_vpr.scss */
@@ -5659,7 +5672,7 @@ footer span#copyright {
 
 /* line 1, ../dev/sass/_vpr-svg.scss */
 #vpr_svg {
-  background-size: 100%;
+  background-size: 90%;
   width: 192px;
   height: 76.8px;
   background-repeat: no-repeat;
@@ -9272,7 +9285,6 @@ h1, h2, h3, h4 {
 /* line 45, ../dev/sass/style.scss */
 .navbar .navbar-header #navbar-title {
   font-size: 36px !important;
-  font-family: Molot;
 }
 /* line 46, ../dev/sass/style.scss */
 .navbar .navbar-header #navbar-title a {
@@ -9665,23 +9677,18 @@ div.give {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding: 25px 1px 5px;
-}
-
-@media (max-width: 972px) {
-  .nav-social-responsive {
-    padding: 25px 1px 25px;
-  }
-}
-
-@media (max-width: 1020px) {
-  .nav-share-logos {
-    display: none;
-  }
 }
 
 .nav-share-logos {
   text-align: right;
+  padding-right: 20px;
+}
+
+
+@media (min-width: 990px) {
+  .nav-social-responsive {
+    padding-top: 20px;
+  }
 }
 
 #share-logos {
