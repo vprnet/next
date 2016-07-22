@@ -9604,12 +9604,13 @@ div.give {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 50px;
-  padding-bottom: 80px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 #quote {
   padding-top: 30px;
+  padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #FFFFFF;
@@ -9617,13 +9618,15 @@ div.give {
 
 #quote-id {
   padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #FFFFFF;
 }
 
 #give-action {
-  padding-top: 25px;
+  padding-top: 55px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #FFFFFF;
