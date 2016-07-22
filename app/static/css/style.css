@@ -9444,15 +9444,16 @@ h1, h2, h3, h4 {
 }
 
 #video-title h4 {
-  padding-top: 5px;
+  padding-top: 40px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 26px;
   color: #FFFFFF;
 }
 
 #video-title p {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  padding-top: 10px;
   color: #93B0AC;
 }
 
@@ -9492,12 +9493,12 @@ h1, h2, h3, h4 {
   }
 
   #video-title h4 {
-    padding-top: 20px;
+    padding-top: 80px;
     font-size: 35px;
   }
 
   #video-title p {
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 14px;
   }
 
@@ -9510,7 +9511,7 @@ h1, h2, h3, h4 {
 #video-section {
   background-color: #2b333a;
   overflow: auto;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 #tracker-section {
@@ -9537,7 +9538,7 @@ h1, h2, h3, h4 {
 }
 
 #vimeo {
-  padding: 35px 30px 10px;
+  padding: 70px 30px 10px;
 }
 
 #teaser {
