@@ -5618,12 +5618,12 @@ footer {
   background: #2B333A;
   font-size: 12px;
   color: #e6e6e6;
-  padding: 50px 0 60px;
+  padding: 70px 0 70px;
 }
 @media (max-width: 768px) {
   /* line 72, ../dev/sass/_vpr.scss */
   footer {
-    padding-bottom: 20px;
+    padding-bottom: 70px;
   }
 }
 
@@ -9459,7 +9459,7 @@ h1, h2, h3, h4 {
 }
 
 #video-title h4 {
-  padding-top: 40px;
+  padding-top: 50px;
   font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   color: #FFFFFF;
@@ -9519,7 +9519,7 @@ h1, h2, h3, h4 {
   }
 
   #video-title h4 {
-    padding-top: 80px;
+    padding-top: 90px;
     padding-left: 20px;
     font-size: 35px;
   }
@@ -9541,14 +9541,14 @@ h1, h2, h3, h4 {
 #video-section {
   background-color: #2b333a;
   overflow: auto;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
 }
 
 #tracker-section {
   background-color: #F0F4F7;
   overflow: auto;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #number-tracker h3 {
@@ -9568,7 +9568,7 @@ h1, h2, h3, h4 {
 }
 
 #vimeo {
-  padding: 70px 30px 10px;
+  padding: 80px 30px 10px;
 }
 
 #teaser {
@@ -9638,8 +9638,8 @@ div.give {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding-top: 70px;
+  padding-bottom: 80px;
 }
 
 #quote {
@@ -9674,8 +9674,8 @@ div.give {
 #sharing-section {
   background-color: #3A424B;
   overflow: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #share-copy h3 {
