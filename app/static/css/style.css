@@ -2611,7 +2611,7 @@ address {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 990px) {
   #desktop-feature-image {
     display: none;
   }
@@ -9432,6 +9432,10 @@ h1, h2, h3, h4 {
   padding-right: 10px;
 }
 
+#intro-explainer p {
+  font-family: 'Montserrat Light', sans-serif;
+}
+
 #intro-learn-more p {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -9456,7 +9460,7 @@ h1, h2, h3, h4 {
 }
 
 #video-title p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
   font-size: 14px;
   padding-top: 10px;
   color: #93B0AC;
@@ -9468,6 +9472,7 @@ h1, h2, h3, h4 {
   color: #FFFFFF;
   padding-bottom: 30px;
 }
+
 @media (max-width: 718px) {
   #video-action span {
     display: block;
@@ -9491,7 +9496,7 @@ h1, h2, h3, h4 {
   }
 
   #intro-explainer p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Light', sans-serif;
     font-size: 14px;
     padding-right: 30px;
     padding-left: 30px;
@@ -9503,6 +9508,7 @@ h1, h2, h3, h4 {
   }
 
   #video-title p {
+    font-family: 'Montserrat Light', sans-serif;
     padding-top: 10px;
     font-size: 14px;
   }
