@@ -9463,6 +9463,7 @@ h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   color: #FFFFFF;
+  padding-left: 20px;
 }
 
 #video-title p {
@@ -9470,13 +9471,14 @@ h1, h2, h3, h4 {
   font-size: 14px;
   padding-top: 10px;
   color: #93B0AC;
+  text-align: left;
 }
 
 #video-action p {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #FFFFFF;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 718px) {
@@ -9518,6 +9520,7 @@ h1, h2, h3, h4 {
 
   #video-title h4 {
     padding-top: 80px;
+    padding-left: 20px;
     font-size: 35px;
   }
 
@@ -9525,10 +9528,12 @@ h1, h2, h3, h4 {
     font-family: 'Montserrat Light', sans-serif;
     padding-top: 10px;
     font-size: 14px;
+    text-align: left;
   }
 
   #video-action p {
     padding-top: 20px;
+    padding-bottom: 40px;
     font-size: 14px;
   }
 }
