@@ -9648,7 +9648,7 @@ div.give {
 }
 
 #sharing-section {
-  background-color: #4A5660;
+  background-color: #3A424B;
   overflow: auto;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -9656,17 +9656,21 @@ div.give {
 
 #share-copy h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 2px;
   text-align: center;
-  padding: 1px 20px 10px;
+  padding: 1px 1px 10px;
 }
 
-@media (max-width: 762px) {
+@media (max-width: 1253px) {
   #share-copy span {
     display: block;
   }
+}
+
+#share-logos {
+  text-align: center;
 }
 
 .dropdown-responsive {
@@ -9681,7 +9685,7 @@ div.give {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px 15px;
+  padding: 12px 5px;
 }
 
 .nav-social-responsive {
@@ -9701,8 +9705,4 @@ div.give {
   .nav-social-responsive {
     padding-top: 20px;
   }
-}
-
-#share-logos {
-  text-align: center;
 }
