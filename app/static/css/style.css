@@ -5675,6 +5675,10 @@ footer {
   background-image: url(http://mediad.publicbroadcasting.net/p/vpr/files/201607/next-logo-simon-20160721.png);
 }
 
+#vpr_svg:hover {
+   background-image: url(http://mediad.publicbroadcasting.net/p/vpr/files/201607/next-logo-hover-simon-20160723.png);
+}
+
 /*!
   Ionicons, v1.4.0
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
