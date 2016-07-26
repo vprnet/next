@@ -9568,14 +9568,14 @@ div.give {
 
 #share-copy h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   color: #FFFFFF;
   letter-spacing: 2px;
   text-align: center;
   padding: 1px 1px 10px;
 }
 
-@media (max-width: 1253px) {
+@media (max-width: 453px) {
   #share-copy span {
     display: block;
   }
