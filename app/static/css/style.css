@@ -8971,26 +8971,6 @@ footer {
   display: none;
 }
 
-/* line 24, ../dev/sass/_video.scss */
-.podcast_page .below_video {
-  display: block;
-  position: relative;
-  margin: -8px 0 30px;
-  height: 40px;
-  width: 100%;
-}
-@media (max-width: 500px) {
-  /* line 24, ../dev/sass/_video.scss */
-  .podcast_page .below_video {
-    font-size: 12px;
-  }
-}
-@media (max-width: 500px) {
-  /* line 24, ../dev/sass/_video.scss */
-  .podcast_page .below_video {
-    margin-top: -14px;
-  }
-}
 /* line 36, ../dev/sass/_video.scss */
 .podcast_page .below_video .extras, .podcast_page .below_video .social_logos {
   position: absolute;
@@ -9007,12 +8987,7 @@ footer {
   text-decoration: none;
   color: #307fe2;
 }
-/* line 49, ../dev/sass/_video.scss */
-.podcast_page .below_video .extras {
-  position: absolute;
-  bottom: 0;
-  left: 5px;
-}
+
 /* line 54, ../dev/sass/_video.scss */
 .podcast_page .below_video .social_logos {
   position: absolute;
@@ -9139,108 +9114,6 @@ footer {
 .email_signup .email_icon i {
   position: relative;
   top: -40px;
-}
-
-/* line 2, ../dev/sass/_podcast_detail.scss */
-.podcast_page h2.featured_podcast {
-  font-size: 48px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  text-align: center;
-  text-decoration: underline;
-}
-@media (max-width: 500px) {
-  /* line 2, ../dev/sass/_podcast_detail.scss */
-  .podcast_page h2.featured_podcast {
-    font-size: 24px;
-  }
-}
-/* line 13, ../dev/sass/_podcast_detail.scss */
-.podcast_page .podcast_members h3, .podcast_page .setlist h3 {
-  text-decoration: underline;
-}
-/* line 16, ../dev/sass/_podcast_detail.scss */
-.podcast_page .podcast_members p, .podcast_page .setlist p {
-  margin-bottom: 0;
-  font-weight: 500;
-  line-height: 15px;
-}
-/* line 21, ../dev/sass/_podcast_detail.scss */
-.podcast_page .podcast_members p.detail, .podcast_page .setlist p.detail {
-  font-size: 12px;
-  font-weight: 400;
-  color: #75787b;
-}
-/* line 26, ../dev/sass/_podcast_detail.scss */
-.podcast_page .podcast_members .podcast_member, .podcast_page .podcast_members .song, .podcast_page .setlist .podcast_member, .podcast_page .setlist .song {
-  margin-bottom: 5px;
-}
-/* line 30, ../dev/sass/_podcast_detail.scss */
-.podcast_page .setlist {
-  text-align: right;
-}
-
-/* line 1, ../dev/sass/_player.scss */
-div.audio_player {
-  height: 40px;
-  margin-left: 40px;
-}
-/* line 5, ../dev/sass/_player.scss */
-div.audio_player div.play_btn {
-  margin-left: -40px;
-  cursor: pointer;
-  width: 40px;
-  padding: 10px 20px 8px;
-  height: 40px;
-  font-size: 24px;
-  color: #585e5e;
-  display: inline-block;
-}
-/* line 16, ../dev/sass/_player.scss */
-div.audio_player .progress_bar {
-  display: inline-block;
-  height: 100%;
-  width: 0%;
-  vertical-align: top;
-}
-/* line 23, ../dev/sass/_player.scss */
-div.audio_player .play {
-  width: 100%;
-}
-/* line 26, ../dev/sass/_player.scss */
-div.audio_player .duration, div.audio_player .audio_title {
-  position: absolute;
-  top: 2px;
-  color: #3f4444;
-  font-weight: 500;
-  height: 20px;
-  padding: 15px 30px 8px;
-  font-size: 10px;
-}
-
-/* line 39, ../dev/sass/_player.scss */
-div.audio_player .audio_title {
-  left: 20px;
-}
-
-@media (max-width: 768px) {
-  /* line 30, ../dev/sass/_podcast_detail.scss */
-  .podcast_page .setlist {
-    text-align: center;
-  }
-}
-@media (max-width: 768px) {
-  /* line 36, ../dev/sass/_podcast_detail.scss */
-  .podcast_page .podcast_members {
-    text-align: center;
-  }
-}
-
-/* line 12, ../dev/sass/style.scss */
-.molat {
-  font-family: Molot;
-  font-size: 48px;
-  line-height: 55px;
 }
 
 /* line 18, ../dev/sass/style.scss */
