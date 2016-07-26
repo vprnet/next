@@ -11,8 +11,6 @@ AWS_SECRET_KEY = ''
 AWS_BUCKET = 'www.vpr.net'
 AWS_DIRECTORY = 'sandbox/next'
 
-NPR_API_KEY = ''
-
 # Cache Settings (units in seconds)
 STATIC_EXPIRES = 60 * 24 * 3600
 HTML_EXPIRES = 3600
