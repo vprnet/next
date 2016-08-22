@@ -9,7 +9,7 @@ project_social = {
     "img": "http://mediad.publicbroadcasting.net/p/vpr/files/vpr-next-whats-next-simon-20160726.png",
     "description": "Join me in helping to transform the sound of Vermont's future.",
     "twitter_text": "Join me in helping to transform the sound of Vermont's future.",
-    "twitter_hashtag": ""
+    "twitter_hashtag": "#VPRNext"
 }
 
 @app.route("/")

@@ -1676,6 +1676,7 @@ p {
     margin: 10px 20px 10px;
   }
 }
+
 /* line 1094, ../dev/sass/_bootstrap.scss */
 h1 {
   margin: 1px 20px 10px;
@@ -2609,6 +2610,10 @@ address {
   .col-sm-offset-0 {
     margin-left: 0%;
   }
+}
+
+#desktop-feature-image {
+  padding-top: 20px;
 }
 
 @media (max-width: 990px) {
@@ -9319,7 +9324,7 @@ h1, h2, h3, h4 {
   font-family: 'Montserrat Black', sans-serif;
   font-size: 32px;
   color: #3A424B;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 5px;
   padding-right: 10px;
 }
@@ -9350,16 +9355,16 @@ h1, h2, h3, h4 {
   padding-bottom: 10px;
 }
 
-#video-title h4 {
-  padding-top: 50px;
+#about-you-title h4 {
+  padding-top: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 30px;
   color: #FFFFFF;
   padding-left: 20px;
 }
 
-#video-title p {
+#about-you-title p {
   font-family: 'Montserrat Light', sans-serif;
   font-size: 14px;
   padding-top: 10px;
@@ -9367,7 +9372,7 @@ h1, h2, h3, h4 {
   text-align: left;
 }
 
-#video-action p {
+#about-you-action p {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #FFFFFF;
@@ -9375,7 +9380,7 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 718px) {
-  #video-action span {
+  #about-you-action span {
     display: block;
   }
 }
@@ -9411,32 +9416,35 @@ h1, h2, h3, h4 {
     padding-left: 30px;
   }
 
-  #video-title h4 {
+  #about-you-title h4 {
+    padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    padding-top: 90px;
-    padding-left: 20px;
+    padding-left: 60px;
     font-size: 32px;
-  }
+}
 
-  #video-title p {
+  #about-you-title p {
     font-family: 'Montserrat Light', sans-serif;
     padding-top: 10px;
     font-size: 14px;
     text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
-  #video-action p {
+  #about-you-action p {
     padding-top: 20px;
     padding-bottom: 40px;
+    padding-left: 40px;
     font-size: 14px;
   }
 }
 
-#video-section {
+#about-you-section {
   background-color: #2b333a;
   overflow: auto;
-  padding-bottom: 80px;
+  padding: 40px 36px 50px;
 }
 
 #tracker-section {
@@ -9470,7 +9478,7 @@ h1, h2, h3, h4 {
 }
 
 #vimeo {
-  padding: 80px 30px 10px;
+  padding: 40px 30px;
 }
 
 #teaser {
