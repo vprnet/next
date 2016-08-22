@@ -5551,9 +5551,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   src: url("../fonts/Molot.otf") format("opentype");
 }
 
-/* line 19, ../dev/sass/_vpr.scss */
 a {
   color: #FFFFFF;
+}
+
+#pdf-teaser a {
+  color: #3A424B;
+}
+
+#pdf-teaser a:hover {
+  color: #93B0AC;
 }
 
 /* line 23, ../dev/sass/_vpr.scss */
@@ -9447,11 +9454,18 @@ h1, h2, h3, h4 {
   color: #3A424B;
 }
 
-#number-tracker p {
+#number-tracker h5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   text-align: center;
-  padding-bottom: 20px;
+  color: #308C3F;
+}
+
+#number-tracker p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 10px;
   color: #308C3F;
 }
 
@@ -9467,6 +9481,14 @@ h1, h2, h3, h4 {
   color: #B4B7B8;
 }
 
+#pdf-teaser {
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 22px;
+  color: #B4B7B8;
+}
+
 @media (max-width: 562px) {
   .text-break {
     display: block;
@@ -9476,7 +9498,7 @@ h1, h2, h3, h4 {
 .breakdown {
   display: inline-block;
   text-align: left;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
 }
 
 .breakdown p {
@@ -9556,7 +9578,7 @@ div.give {
 }
 
 #logo-tracker {
-  padding-top: 2px;
+  padding-top: 15px;
 }
 
 #sharing-section {
