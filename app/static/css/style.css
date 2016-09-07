@@ -9648,3 +9648,67 @@ div.give {
     padding-top: 20px;
   }
 }
+
+
+.flex-container {
+    width: 100%;
+}
+.flex-container div {
+    width: 100%;
+}
+
+.flex-container .newsheader {
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.flex-container .newscontent {
+  display: none;
+  padding: 10px 20px;
+}
+
+.flex-container .musicheader {
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.flex-container .musiccontent {
+    display: none;
+    padding: 10px 20px;
+}
+.flex-container .buildingheader {
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.flex-container .buildingcontent {
+    display: none;
+    padding: 10px 20px;
+}
+.flex-container .studiooneheader {
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.flex-container .studioonecontent {
+    display: none;
+    padding: 10px 20px;
+}
+.flex-container .hqheader {
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.flex-container .hqcontent {
+    display: none;
+    padding: 10px 20px;
+}
+.flex-container .sustainabilityheader {
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.flex-container .sustainabilitycontent {
+    display: none;
+    padding: 10px 20px;
+}
