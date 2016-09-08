@@ -9135,7 +9135,7 @@ hr {
 
 /* line 22, ../dev/sass/style.scss */
 h1, h2, h3, h4 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* line 27, ../dev/sass/style.scss */
@@ -9648,6 +9648,19 @@ div.give {
   }
 }
 
+.blog {
+  padding: 10px 120px 20px;
+}
+
+@media (max-width: 991px) {
+  .blog {
+    padding: 10px 30px 20px;
+  }
+}
+
+.blog h5 {
+  font-family: 'Montserrat Light', sans-serif;
+}
 
 .flex-container {
     width: 100%;

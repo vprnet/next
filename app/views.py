@@ -26,3 +26,18 @@ def index():
         landing=landing,
         project_social=project_social,
         page_url=page_url)
+
+@app.route("/blog")
+def blog():
+    page_url = BASE_URL + request.path
+    page_title = "VPR NEXT"
+    blog = True
+
+    social = project_social
+
+    return render_template("blog.html",
+        page_title=page_title,
+        social=social,
+        blog=blog,
+        project_social=project_social,
+        page_url=page_url)

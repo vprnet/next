@@ -4,11 +4,16 @@
 
 {% block content %}
 
-{% include "_intro.html" %}
-{% include "_about_you.html" %}
-{% include "_donation.html" %}
-{% include "_tracker.html" %}
-{% include "_breakdown.html" %}
-{% include "_sharing.html" %}
+{% if landing %}
+  {% include "_intro.html" %}
+  {% include "_about_you.html" %}
+  {% include "_donation.html" %}
+  {% include "_tracker.html" %}
+  {% include "_breakdown.html" %}
+  {% include "_sharing.html" %}
+{% else %}
+  {% include "blog.html" %}
+{% endif %}
+
 
 {% endblock %}
