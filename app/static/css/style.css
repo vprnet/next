@@ -4063,6 +4063,17 @@ fieldset[disabled] .btn-warning.active {
   border-color: #ac2925;
 }
 
+/* line 2690, ../dev/sass/_bootstrap.scss */
+.btn-danger-nav:hover,
+.btn-danger-nav:focus,
+.btn-danger-nav:active,
+.btn-danger-nav.active,
+.open > .dropdown-toggle.btn-danger-nav {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+
 /* line 2697, ../dev/sass/_bootstrap.scss */
 .btn-danger:active,
 .btn-danger.active,
@@ -5595,7 +5606,7 @@ html, body {
 }
 /* line 43, ../dev/sass/_vpr.scss */
 .navbar .navbar-header a:hover {
-  color: #307fe2;
+  color: #ffffff;
   text-decoration: none;
 }
 /* line 48, ../dev/sass/_vpr.scss */
@@ -9531,6 +9542,15 @@ h1, h2, h3, h4 {
   letter-spacing: 2px;
 }
 
+.btn-danger-nav {
+  background-color: #DD503F;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 0 !important;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+
 .btn-email {
   background-color: #DD503F;
   font-size: 14px;
@@ -9584,6 +9604,29 @@ div.give {
   text-align: center;
 }
 
+#give-action-navbar {
+  padding-top: 35px;
+  padding-right: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  #give-action-navbar {
+    padding-top: 12px;
+    padding-right: 25px;
+  }
+}
+
+@media (max-width: 353px) {
+  .btn-danger-nav {
+    padding: 10px 10px 10px 10px;
+  }
+}
+
 #logo-tracker {
   padding-top: 15px;
 }
@@ -9634,18 +9677,6 @@ div.give {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-
-.nav-share-logos {
-  text-align: right;
-  padding-right: 20px;
-}
-
-
-@media (min-width: 991px) {
-  .nav-social-responsive {
-    padding-top: 20px;
-  }
 }
 
 .blog {
