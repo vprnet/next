@@ -9681,6 +9681,8 @@ div.give {
 
 .blog {
   padding: 10px 120px 20px;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 @media (max-width: 991px) {
@@ -9689,8 +9691,29 @@ div.give {
   }
 }
 
+@media (min-width: 1290px) {
+  .blog {
+    padding: 10px 30px 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
 .blog h5 {
   font-family: 'Montserrat Light', sans-serif;
+  font-size: 14px;
+}
+
+.blog span {
+  text-indent: 20px;
+}
+
+.blog h6 {
+  margin-right: 20px;
+}
+
+.photo-caption h6 {
+  text-align: center;
 }
 
 .flex-container {
