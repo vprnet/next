@@ -9349,6 +9349,12 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+#tagline a {
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+
 #intro-learn-more p {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -9677,39 +9683,6 @@ div.give {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-
-.blog {
-  padding: 10px 120px 20px;
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
-@media (max-width: 991px) {
-  .blog {
-    padding: 10px 30px 20px;
-  }
-}
-
-@media (min-width: 1290px) {
-  .blog {
-    padding: 10px 30px 20px;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-}
-
-.blog h5 {
-  font-family: 'Montserrat Light', sans-serif;
-  font-size: 14px;
-}
-
-.blog span {
-  text-indent: 20px;
-}
-
-.blog h6 {
-  margin-right: 20px;
 }
 
 .photo-caption h6 {
