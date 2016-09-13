@@ -1416,7 +1416,7 @@ html {
 /* line 893, ../dev/sass/_bootstrap.scss */
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #333333;
   background-color: #ffffff;
@@ -9332,7 +9332,7 @@ h1, h2, h3, h4 {
 
 #intro-explainer h1 {
   font-family: 'Montserrat Black', sans-serif;
-  font-size: 32px;
+  font-size: 34px;
   color: #3A424B;
   padding-top: 40px;
   padding-bottom: 5px;
@@ -9345,18 +9345,18 @@ h1, h2, h3, h4 {
 
 #tagline {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 #tagline a {
-  font-size: 14px;
+  font-size: 16px;
   color: #333333;
 }
 
 #intro-learn-more p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 2px;
   color: #DD503F;
   padding-top: 10px;
@@ -9403,9 +9403,10 @@ h1, h2, h3, h4 {
 @media (min-width: 1038px) {
   #tagline {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     padding-right: 30px;
     padding-left: 30px;
+    padding-bottom: 30px;
     font-weight: 700;
   }
 
@@ -9416,7 +9417,7 @@ h1, h2, h3, h4 {
 
   #intro-explainer h1 {
     font-family: 'Montserrat Black', sans-serif;
-    font-size: 32px;
+    font-size: 34px;
     color: #3A424B;
     padding-top: 9%;
     padding-bottom: 5px;
@@ -9426,7 +9427,7 @@ h1, h2, h3, h4 {
 
   #intro-explainer p {
     font-family: 'Montserrat Light', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -9493,7 +9494,13 @@ h1, h2, h3, h4 {
 }
 
 #vimeo {
-  padding: 40px 30px;
+  padding: 60px 30px;
+}
+
+@media (max-width: 991px) {
+  #vimeo {
+    padding: 20px 30px 50px;
+  }
 }
 
 #teaser {
