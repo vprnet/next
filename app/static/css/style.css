@@ -9499,15 +9499,16 @@ h1, h2, h3, h4 {
   padding-top: 70px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 22px;
+  font-size: 30px;
   color: #B4B7B8;
 }
 
-#pdf-teaser {
-  padding-bottom: 50px;
+#pdf-teaser h5 {
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
   color: #B4B7B8;
 }
 
@@ -9525,13 +9526,13 @@ h1, h2, h3, h4 {
 
 .breakdown p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #3A424B;
 }
 
 .breakdown-title p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 700;
   color: #3A424B;
   padding-top: 10px;
