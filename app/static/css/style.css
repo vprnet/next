@@ -9346,23 +9346,16 @@ h1, h2, h3, h4 {
 #tagline {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  font-weight: 700;
 }
 
 #tagline a {
+  font-family: 'Montserrat Light', sans-serif;
   font-size: 16px;
   color: #333333;
 }
 
-#intro-learn-more p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  letter-spacing: 2px;
-  color: #DD503F;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  padding-right: 10px;
-  padding-left: 0px;
+#tagline a:hover {
+  color: #93B0AC;
 }
 
 #next-image {
@@ -9407,7 +9400,6 @@ h1, h2, h3, h4 {
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 30px;
-    font-weight: 700;
   }
 
   #intro-learn-more {
