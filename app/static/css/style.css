@@ -9374,7 +9374,7 @@ h1, h2, h3, h4 {
 
 #about-you-title p {
   font-family: 'Montserrat Light', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   padding-top: 10px;
   color: #93B0AC;
   text-align: left;
@@ -9382,7 +9382,7 @@ h1, h2, h3, h4 {
 
 #about-you-action p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #FFFFFF;
   padding-bottom: 40px;
 }
@@ -9435,7 +9435,7 @@ h1, h2, h3, h4 {
   #about-you-title p {
     font-family: 'Montserrat Light', sans-serif;
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
     padding-left: 40px;
     padding-right: 40px;
@@ -9445,7 +9445,7 @@ h1, h2, h3, h4 {
     padding-top: 20px;
     padding-bottom: 40px;
     padding-left: 40px;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
