@@ -9479,7 +9479,7 @@ h1, h2, h3, h4 {
 
 #number-tracker p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
   padding-bottom: 10px;
   color: #308C3F;
@@ -9633,7 +9633,7 @@ div.give {
 }
 
 #logo-tracker {
-  padding-top: 15px;
+  padding-top: 40px;
 }
 
 #sharing-section {
