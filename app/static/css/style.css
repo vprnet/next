@@ -2611,14 +2611,8 @@ address {
   }
 }
 
-#desktop-feature-image {
+#desktop-feature-embed {
   padding-top: 20px;
-}
-
-@media (max-width: 990px) {
-  #desktop-feature-image {
-    display: none;
-  }
 }
 
 @media (min-width: 991px) {
