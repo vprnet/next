@@ -9321,7 +9321,7 @@ h1, h2, h3, h4 {
 
 #intro-explainer span {
   font-family: 'Montserrat Black', sans-serif;
-  color: #308C3F;
+  color: #3A424B;
 }
 
 #intro-explainer h1 {
@@ -9489,6 +9489,29 @@ h1, h2, h3, h4 {
   }
 }
 
+#updates {
+    padding-bottom: 30px;
+}
+
+@media (min-width: 1038px) {
+  #updates {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-bottom: 30px;
+  }
+}
+
+#updates a {
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+#updates a:hover {
+  color: #93B0AC;
+}
 #teaser {
   padding-top: 70px;
   font-family: 'Montserrat', sans-serif;
