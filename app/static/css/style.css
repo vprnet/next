@@ -9320,12 +9320,13 @@ h1, h2, h3, h4 {
 }
 
 #intro-explainer span {
-  font-family: 'Montserrat Black', sans-serif;
-  color: #3A424B;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
 }
 
 #intro-explainer h1 {
-  font-family: 'Montserrat Black', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   font-size: 34px;
   color: #3A424B;
   padding-top: 40px;
@@ -9402,7 +9403,8 @@ h1, h2, h3, h4 {
   }
 
   #intro-explainer h1 {
-    font-family: 'Montserrat Black', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 34px;
     color: #3A424B;
     padding-top: 9%;
