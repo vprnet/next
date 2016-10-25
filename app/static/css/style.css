@@ -9313,7 +9313,7 @@ h1, h2, h3, h4 {
 }
 
 .address-info-light {
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   color: #849199;
@@ -9335,7 +9335,7 @@ h1, h2, h3, h4 {
 }
 
 #intro-explainer p {
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #tagline {
@@ -9344,7 +9344,7 @@ h1, h2, h3, h4 {
 }
 
 #tagline a {
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: #333333;
 }
@@ -9368,7 +9368,7 @@ h1, h2, h3, h4 {
 }
 
 #about-you-title p {
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   padding-top: 10px;
   color: #93B0AC;
@@ -9414,7 +9414,7 @@ h1, h2, h3, h4 {
   }
 
   #intro-explainer p {
-    font-family: 'Montserrat Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     padding-right: 30px;
     padding-left: 30px;
@@ -9429,7 +9429,7 @@ h1, h2, h3, h4 {
 }
 
   #about-you-title p {
-    font-family: 'Montserrat Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-top: 10px;
     font-size: 16px;
     text-align: left;
@@ -9506,7 +9506,7 @@ h1, h2, h3, h4 {
 }
 
 #updates a {
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: #333333;
 }
