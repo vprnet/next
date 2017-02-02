@@ -3,13 +3,9 @@
 {% block title %}{{ page_title }}{% endblock %}
 
 {% block content %}
-
+  {% include "_tracker.html" %}
   {% include "_intro.html" %}
   {% include "_about_you.html" %}
-  {% include "_donation.html" %}
-  {% include "_tracker.html" %}
   {% include "_breakdown.html" %}
-  {% include "_sharing.html" %}
-
-
+  {% include "_donation.html" %}
 {% endblock %}

@@ -2,7 +2,7 @@
  * Bootstrap v3.2.0 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+ */©
 /*!
  * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=886075071e23d1aa74bb)
  * Config saved to config.json and https://gist.github.com/886075071e23d1aa74bb
@@ -1611,6 +1611,7 @@ h5,
 h6,
 .h6 {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* line 1067, ../dev/sass/_bootstrap.scss */
@@ -9324,18 +9325,9 @@ h1, h2, h3, h4 {
   font-weight: 900;
 }
 
-#intro-explainer h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 34px;
-  color: #3A424B;
-  padding-top: 40px;
-  padding-bottom: 5px;
-  padding-right: 10px;
-}
-
 #intro-explainer p {
   font-family: 'Montserrat', sans-serif;
+  padding-top: 10px;
 }
 
 #tagline {
@@ -9359,12 +9351,12 @@ h1, h2, h3, h4 {
 }
 
 #about-you-title h4 {
-  padding-top: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 30px;
   color: #FFFFFF;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 #about-you-title p {
@@ -9402,15 +9394,9 @@ h1, h2, h3, h4 {
     padding-left: 25px;
   }
 
-  #intro-explainer h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 34px;
-    color: #3A424B;
-    padding-top: 9%;
-    padding-bottom: 5px;
-    padding-right: 30px;
-    padding-left: 30px;
+  #intro-explainer {
+    padding-top: 35px;
+    padding-bottom: 25px;
   }
 
   #intro-explainer p {
@@ -9418,13 +9404,15 @@ h1, h2, h3, h4 {
     font-size: 16px;
     padding-right: 30px;
     padding-left: 30px;
+    padding-top: 10px;
   }
 
   #about-you-title h4 {
-    padding-top: 30px;
+    padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     padding-left: 60px;
+    padding-right: 60px;
     font-size: 32px;
 }
 
@@ -9448,14 +9436,14 @@ h1, h2, h3, h4 {
 #about-you-section {
   background-color: #2b333a;
   overflow: auto;
-  padding: 40px 22px 50px;
+  padding: 40px 2px 50px;
 }
 
 #tracker-section {
   background-color: #F0F4F7;
   overflow: auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #number-tracker h3 {
@@ -9477,12 +9465,11 @@ h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   text-align: center;
-  padding-bottom: 10px;
   color: #308C3F;
 }
 
 #vimeo {
-  padding: 90px 30px;
+  padding: 40px 30px;
 }
 
 @media (max-width: 991px) {
@@ -9768,4 +9755,23 @@ div.give {
 .flex-container .sustainabilitycontent {
     display: none;
     padding: 10px 20px;
+}
+
+#button-intro {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#give-action-intro-buttons {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 20px;
+
+}
+
+@media (max-width: 500px) {
+  .btn-xl {
+      font-size: 11px;
+  }
 }
