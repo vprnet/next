@@ -9281,15 +9281,6 @@ h1, h2, h3, h4 {
   padding-left: 40px;
 }
 
-.email-info p {
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 1px;
-  font-size: 14px;
-  font-weight: bold;
-  margin: 20px 5px 5px;
-  color: #849199;
-}
-
 .footer-info {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -9299,7 +9290,7 @@ h1, h2, h3, h4 {
   padding-left: 40px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .footer-info {
     display: none;
   }
