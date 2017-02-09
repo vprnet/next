@@ -9587,6 +9587,7 @@ div.give {
   font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 #quote-id {
@@ -9595,6 +9596,7 @@ div.give {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 #give-action {
