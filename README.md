@@ -1,8 +1,8 @@
-#VPR NEXT
+# VPR NEXT
 
 VPR Next is Vermont Public Radio's 2016 capital campaign. This site was designed by [Oxbow](http://www.oxbow.co/#intro).
 
-##Notes on the Project
+## Notes on the Project
 
 This project started with VPR's [Podcast Directory](http://www.vpr.net/podcasts) as a template. Vermonters love to recycle.
 
