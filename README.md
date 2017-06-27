@@ -14,7 +14,7 @@ Hello! When VPR reaches successful completion of the goal, here's what someone w
 
 ## Notes on the Project
 
-### One-time set-up work:
+### One-time setup work:
 
 1. Make sure you have Python 2.7 installed.
 1. Clone the repo locally. `git clone git@github.com:vprnet/next.git`
