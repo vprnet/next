@@ -21,6 +21,7 @@ Hello! When VPR reaches successful completion of the goal, here's what someone w
 1. [Install `pip`](https://pip.pypa.io/en/latest/installing.html)
 1. Install virtualenv. `pip install virtualenv`
 1. Create a virtual environment for the app. `virtualenv venv`
+1. Enter the virtual environment. `source venv/bin/activate`
 1. Install the app requirements. `pip install -r requirements.txt`
 
 ### For regular updates, start here:
