@@ -16,4 +16,14 @@ The steps to get set up are here:
 1. Create a virtual environment for the app. `virtualenv venv`
 1. Enter the virtual environment. `source venv/bin/activate`
 1. Install the app requirements. `pip install -r requirements.txt`
-1. To run locally, just hit a quick	`python app/index.py` and head to `127.0.0.1:5000`.
+1. To run locally, just hit a quick	`python app/index.py` and head to `127.0.0.1:5000`
+1. To push to production, type `python app/index.py build`
+
+
+## Instructions for the end of the Capital Campaign.
+
+Hello! When VPR reaches successful completion of the goal, here's what someone will need to do:
+
+1. On line 5 of `templates/_tracker.html`, change the $ amount raised.
+1. In that same file on line 12, change the image src to: `./static/img/100.png`.
+1. CELEBRATE!
