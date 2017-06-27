@@ -7,7 +7,7 @@ VPR Next is Vermont Public Radio's 2016 capital campaign. This site was designed
 Hello! When VPR reaches successful completion of the goal, here's what someone will need to do:
 
 1. On line 5 of `templates/_tracker.html`, change the $ amount raised.
-1. In that same file on line 12, change the image src to: `./static/img/100.png`.
+1. In that same file on line 12, change the image src to: `./static/img/100.png`
 1. CELEBRATE!
 
 
@@ -27,4 +27,4 @@ Hello! When VPR reaches successful completion of the goal, here's what someone w
 1. Change into the project directory. `cd next`
 1. Enter the virtual environment. `source venv/bin/activate`
 1. To run locally, just hit a quick	`python app/index.py` and head to `127.0.0.1:5000`
-1. To push to production on Amazon S3, run `python app/index.py build`.
+1. To push to production on Amazon S3, run `python app/index.py build`
