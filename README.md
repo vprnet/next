@@ -8,6 +8,7 @@ Hello! When VPR reaches successful completion of the goal, here's what someone w
 
 1. On line 5 of `templates/_tracker.html`, change the $ amount raised.
 1. In that same file on line 12, change the image src to: `./static/img/100.png`
+1. Push to production: `python app/index.py build`
 1. CELEBRATE!
 
 
