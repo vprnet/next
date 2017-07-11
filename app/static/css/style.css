@@ -1435,7 +1435,7 @@ textarea {
 /* line 908, ../dev/sass/_bootstrap.scss */
 a {
   color: #428bca;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* line 913, ../dev/sass/_bootstrap.scss */
@@ -5562,7 +5562,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 a {
-  color: #FFFFFF;
+  color: #333333;
 }
 
 #pdf-teaser a {
@@ -9288,6 +9288,10 @@ h1, h2, h3, h4 {
   color: #849199;
   padding-top: 20px;
   padding-left: 40px;
+}
+
+.footer-info a {
+  color: #849199;
 }
 
 @media (max-width: 1200px) {
