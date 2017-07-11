@@ -2,16 +2,6 @@
 
 VPR Next is Vermont Public Radio's 2016 capital campaign. This site was designed by [Oxbow](http://www.oxbow.co/#intro).
 
-## Instructions for the end of the Capital Campaign
-
-Hello! When VPR reaches successful completion of the goal, here's what someone will need to do:
-
-1. On line 5 of `templates/_tracker.html`, change the $ amount raised.
-1. In that same file on line 12, change the image src to: `./static/img/100.png`
-1. Push to production: `python app/index.py build`
-1. CELEBRATE!
-
-
 ## Notes on the Project
 
 ### One-time setup work:
